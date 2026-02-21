@@ -1,6 +1,12 @@
 Collada DOM Change Log
 ----------------------
 
+2.5.3
+=====
+
+- removed boost system, to fix build with boost 1.89
+- automated flake lock update
+
 2.5.2
 =====
 
