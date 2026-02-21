@@ -1,6 +1,6 @@
 set(COLLADA_INTERNAL_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 include_directories(${COLLADA_INTERNAL_INCLUDE})
-set(COLLADA_LIBS minizip ${liburiparser_LIBRARIES} ${libpcrecpp_LIBRARIES} ${ZLIB_LIBRARIES} ${Boost_FILESYSTEM_LIBRARY} ${Boost_SYSTEM_LIBRARY})
+set(COLLADA_LIBS minizip ${liburiparser_LIBRARIES} ${libpcrecpp_LIBRARIES} ${ZLIB_LIBRARIES} ${Boost_FILESYSTEM_LIBRARY})
 
 file(GLOB dae_files ${CMAKE_CURRENT_SOURCE_DIR}/src/dae/*.cpp)
 if( LIBXML2_FOUND )
